@@ -66,43 +66,5 @@ public class LogoutSteps<Actions> {
 		driver.close();
 		driver.quit();
 
-	}
-	
-
-	//@When("User has navigated to humburger button2")
-	//public void user_has_navigated_to_humburger_button2() throws InterruptedException {
-
-		//driver.findElement(By.id("react-burger-menu-btn")).click();
-
-
-	//}
-
-	//@And("User click item logout2")
-	//public void user_click_item_logout2() throws InterruptedException {
-
-		//driver.findElement(By.id("logout_sidebar_link")).click();
-
-		
-	//}
-
-	//@And("User press reload in browser")
-	//public void user_click_reload_in_browser(WebElement actions) {
-		
-
-	//	WebDriver driver = new ChromeDriver();
-
-		//driver.get("https://www.saucedemo.com/inventory.html");
-		//driver.navigate().refresh();
-
-	//}
-
-	//@Then("User logout successfully and back to login homepage2")
-	//public void user_logout_successfully_and_back_to_login_homepage2() {
-		
-		//driver.findElement(By.linkText("https://www.saucedemo.com/")).isDisplayed();
-
-		//driver.close();
-		//driver.quit();
-	//}
 
 }
